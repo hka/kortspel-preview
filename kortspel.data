@@ -8111,6 +8111,93 @@ nil
             "stats": {
                 "timesPlayed": 0
             }
+        },
+        {
+            "abilities": [
+                {
+                    "name": "StartInPlay",
+                    "parts_mov": [
+                        {
+                            "from": {
+                                "count": 1,
+                                "deckType": 6,
+                                "fromTop": false,
+                                "playerType": 0,
+                                "prioritizeKeywordOrder": false,
+                                "random": false,
+                                "self": true,
+                                "type": 2
+                            },
+                            "must": true,
+                            "to": {
+                                "count": 0,
+                                "deckType": 1,
+                                "fromTop": false,
+                                "playerType": 1,
+                                "prioritizeKeywordOrder": false,
+                                "random": false,
+                                "self": false,
+                                "type": 1
+                            }
+                        }
+                    ],
+                    "trigger": {
+                        "target": {
+                            "count": 0,
+                            "deckType": 6,
+                            "fromTop": false,
+                            "playerType": 0,
+                            "prioritizeKeywordOrder": false,
+                            "random": false,
+                            "self": false,
+                            "type": 2
+                        },
+                        "type": 5
+                    }
+                },
+                {
+                    "name": "Health",
+                    "trigger": {
+                        "target": {
+                            "count": 0,
+                            "deckType": 6,
+                            "fromTop": false,
+                            "playerType": 0,
+                            "prioritizeKeywordOrder": false,
+                            "random": false,
+                            "self": false,
+                            "type": 2
+                        },
+                        "type": 6
+                    },
+                    "value": [
+                        {
+                            "keywords": [
+                                "Health"
+                            ],
+                            "max": 2,
+                            "min": 0,
+                            "value": 2
+                        }
+                    ]
+                }
+            ],
+            "keywords": [
+                "Hero"
+            ],
+            "name": "Grue",
+            "origin": {
+                "ability": 0,
+                "ability_counter": 0,
+                "ability_partMod": 0,
+                "ability_partMov": 0,
+                "card": 0,
+                "deck": 0,
+                "player": 0
+            },
+            "stats": {
+                "timesPlayed": 0
+            }
         }
     ],
     "name": "default"
